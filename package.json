@@ -1,0 +1,26 @@
+{
+  "name": "deindent",
+  "version": "0.1.0",
+  "description": "ES6 template string helper for deindentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deanlandolt/deindent.git"
+  },
+  "keywords": [
+    "es6",
+    "template",
+    "strings",
+    "indendation",
+    "dedent"
+  ],
+  "author": "Dean Landolt <dean@deanlandolt.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deanlandolt/deindent/issues"
+  },
+  "homepage": "https://github.com/deanlandolt/deindent"
+}
