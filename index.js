@@ -7,7 +7,7 @@ module.exports = function deindent(callSite) {
 
     let size = -1;
 
-    return str.replace(/\n(\s+)/g, function (m, m1) {
+    return str.replace(/\n([ \f\r\t\v]*)/g, function (m, m1) {
 
       if (size < 0) {
         size = m1.replace(/\t/g, '    ').length;
