@@ -4,8 +4,11 @@
   "description": "ES6 template string helper for deindentation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "babel-tape-runner test/*.js"
   },
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/deanlandolt/deindent.git"
@@ -22,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/deanlandolt/deindent/issues"
   },
-  "homepage": "https://github.com/deanlandolt/deindent"
+  "homepage": "https://github.com/deanlandolt/deindent",
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "babel-tape-runner": "^1.1.0",
+    "tape": "^4.0.0"
+  }
 }
